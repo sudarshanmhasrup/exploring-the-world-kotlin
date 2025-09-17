@@ -2,6 +2,7 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     alias(libs.plugins.kotlin.jvm)
+    alias(libs.plugins.application)
 }
 
 group = libs.versions.kotlinPlayground.group.get()
@@ -19,6 +20,10 @@ kotlin {
     compilerOptions {
         jvmTarget.set(JvmTarget.JVM_23)
     }
+}
+
+application {
+    mainClass = libs.versions.kotlinPlayground.mainClass.get()
 }
 
 // Custom build directory
