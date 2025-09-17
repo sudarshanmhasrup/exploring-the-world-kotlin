@@ -1,8 +1,8 @@
 ### Kotlin Playground
 
-This module acts as a playground for writing and running sample Kotlin code, intended for testing and experimentation.  
-Inspired by the [Kotlin Playground](https://play.kotlinlang.org), it lets you run code directly in your IDE instead of a
-browser, making it easy to try out external libraries and explore Kotlin in a flexible environment.
+This module serves as a playground for writing and running sample Kotlin code for testing and experimentation. Inspired
+by [Kotlin Playground](https://play.kotlinlang.org), it allows you to run code directly in your IDE instead of a
+browser, making it easier to try out external libraries and explore Kotlin in a flexible environment.
 
 #### Running the Playground
 
