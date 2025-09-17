@@ -5,6 +5,6 @@ import org.junit.Test
 class PlaygroundTests {
     @Test
     fun sampleTest() {
-        assert(true)
+        assert(value = true)
     }
 }
