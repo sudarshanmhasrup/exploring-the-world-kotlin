@@ -8,6 +8,14 @@ plugins {
 group = libs.versions.kotlinPlayground.group.get()
 version = libs.versions.kotlinPlayground.version.get()
 
+application {
+    mainClass = libs.versions.kotlinPlayground.mainClass.get()
+}
+
+dependencies {
+    testImplementation(libs.kotlin.test)
+}
+
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of("23")
@@ -22,12 +30,8 @@ kotlin {
     }
 }
 
-application {
-    mainClass = libs.versions.kotlinPlayground.mainClass.get()
-}
-
-dependencies {
-    testImplementation(libs.kotlin.test)
+tasks.test {
+    useJUnitPlatform()
 }
 
 // Custom build directory
