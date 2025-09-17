@@ -20,3 +20,4 @@ dependencyResolutionManagement {
 }
 
 include(":kotlin-playground")
+include(":trying-kotlin")
