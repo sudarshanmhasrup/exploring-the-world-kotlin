@@ -26,5 +26,9 @@ application {
     mainClass = libs.versions.kotlinPlayground.mainClass.get()
 }
 
+dependencies {
+    testImplementation(libs.kotlin.test)
+}
+
 // Custom build directory
 layout.buildDirectory.set(file("$rootDir/.build/KotlinPlayground"))
