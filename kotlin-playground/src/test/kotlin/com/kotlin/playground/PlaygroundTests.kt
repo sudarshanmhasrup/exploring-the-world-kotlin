@@ -1,6 +1,6 @@
 package com.kotlin.playground
 
-import org.junit.Test
+import kotlin.test.Test
 
 class PlaygroundTests {
     @Test
