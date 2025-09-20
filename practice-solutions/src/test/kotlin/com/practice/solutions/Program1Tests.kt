@@ -8,7 +8,6 @@ class Program1Tests {
     fun testPositivePlusNegative() {
         val firstNumber = 5
         val secondNumber = -3
-
         val expectedResult = 2
         val actualResult = addition(firstNumber = firstNumber, secondNumber = secondNumber)
 
@@ -19,7 +18,6 @@ class Program1Tests {
     fun testNegativePlusPositive() {
         val firstNumber = -7
         val secondNumber = 4
-
         val expectedResult = -3
         val actualResult = addition(firstNumber = firstNumber, secondNumber = secondNumber)
 
@@ -30,7 +28,6 @@ class Program1Tests {
     fun testNegativePlusNegative() {
         val firstNumber = -5
         val secondNumber = -8
-
         val expectedResult = -13
         val actualResult = addition(firstNumber = firstNumber, secondNumber = secondNumber)
 
@@ -41,7 +38,6 @@ class Program1Tests {
     fun testZeroPlusZero() {
         val firstNumber = 0
         val secondNumber = 0
-
         val expectedResult = 0
         val actualResult = addition(firstNumber = firstNumber, secondNumber = secondNumber)
 
@@ -52,7 +48,6 @@ class Program1Tests {
     fun testZeroPlusPositive() {
         val firstNumber = 0
         val secondNumber = 10
-
         val expectedResult = 10
         val actualResult = addition(firstNumber = firstNumber, secondNumber = secondNumber)
 

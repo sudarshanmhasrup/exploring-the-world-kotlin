@@ -1,6 +1,5 @@
 package com.practice.solutions
 
-
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertFailsWith
