@@ -10,7 +10,6 @@ class Program1Tests {
         val secondNumber = -3
         val expectedResult = 2
         val actualResult = addition(firstNumber = firstNumber, secondNumber = secondNumber)
-
         assertEquals(expected = expectedResult, actual = actualResult)
     }
 
@@ -20,7 +19,6 @@ class Program1Tests {
         val secondNumber = 4
         val expectedResult = -3
         val actualResult = addition(firstNumber = firstNumber, secondNumber = secondNumber)
-
         assertEquals(expected = expectedResult, actual = actualResult)
     }
 
@@ -30,7 +28,6 @@ class Program1Tests {
         val secondNumber = -8
         val expectedResult = -13
         val actualResult = addition(firstNumber = firstNumber, secondNumber = secondNumber)
-
         assertEquals(expected = expectedResult, actual = actualResult)
     }
 
@@ -40,7 +37,6 @@ class Program1Tests {
         val secondNumber = 0
         val expectedResult = 0
         val actualResult = addition(firstNumber = firstNumber, secondNumber = secondNumber)
-
         assertEquals(expected = expectedResult, actual = actualResult)
     }
 
@@ -50,7 +46,6 @@ class Program1Tests {
         val secondNumber = 10
         val expectedResult = 10
         val actualResult = addition(firstNumber = firstNumber, secondNumber = secondNumber)
-
         assertEquals(expected = expectedResult, actual = actualResult)
     }
 
@@ -60,7 +55,6 @@ class Program1Tests {
         val secondNumber = 0
         val expectedResult = 15
         val actualResult = addition(firstNumber = firstNumber, secondNumber = secondNumber)
-
         assertEquals(expected = expectedResult, actual = actualResult)
     }
 
@@ -70,7 +64,6 @@ class Program1Tests {
         val secondNumber = 0
         val expectedResult = Int.MAX_VALUE
         val actualResult = addition(firstNumber = firstNumber, secondNumber = secondNumber)
-
         assertEquals(expected = expectedResult, actual = actualResult)
     }
 
@@ -80,7 +73,6 @@ class Program1Tests {
         val secondNumber = 0
         val expectedResult = Int.MIN_VALUE
         val actualResult = addition(firstNumber = firstNumber, secondNumber = secondNumber)
-
         assertEquals(expected = expectedResult, actual = actualResult)
     }
 
@@ -90,7 +82,6 @@ class Program1Tests {
         val secondNumber = 1
         val expectedResult = Int.MIN_VALUE
         val actualResult = addition(firstNumber = firstNumber, secondNumber = secondNumber)
-
         assertEquals(expected = expectedResult, actual = actualResult)
     }
 }
